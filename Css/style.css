@@ -208,6 +208,7 @@ html {
     margin: auto;
     color: black;
     margin: 18px auto;
+    border-radius: 5px;
 }
 
 .mini-deatil {
@@ -541,4 +542,230 @@ span {
     padding: 6px;
     margin: 0px 7px;
     border-radius: 5px;
+}
+
+
+
+.sliding-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 85vh;
+    margin-top: 1.5rem;
+}
+
+
+.left-part-slide {
+    width: 182rem;
+}
+
+.right-part-slide h1 {
+    font-size: 50px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+
+.right-part-slide p {
+    font-family: 'Lora';
+    font-size: 17px;
+}
+
+.right-part-slide button {
+    position: relative;
+    top: 2rem;
+    width: 100px;
+    height: 31px;
+    font-family: 'Lora';
+    cursor: pointer;
+}
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slider img {
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    width: 25vw;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 11rem;
+    left: 11rem;
+    transform: translateX(-50%);
+}
+
+
+.prev, .next {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.right-part-slide {
+    color: black;
+}
+
+
+.footer-donater {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+
+.left-footer-side h1, .left-center-footer-side h1, .center-footer-side h1, .right-footer-side h1 {
+    color: white;
+    font-size: 29px;
+    font-family: 'Lora';
+
+}
+
+.left-footer-side ul, .left-center-footer-side ul, .center-footer-side ul, .right-footer-side ul {
+    margin-top: 14px;
+}
+
+.left-footer-side li, .left-center-footer-side li, .center-footer-side li, .right-footer-side li {
+    margin: 8px 0px;
+    list-style: none;
+}
+
+.left-footer-side a, .left-center-footer-side a, .center-footer-side a, .right-footer-side a {
+    text-decoration: none;
+    color: #d1b4b4;
+    font-family: 'Lora';
+
+}
+
+.right-footer-side p {
+    margin-top: 10px;
+    color: white;
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+    position: top;
+    position: relative;
+    top: 26px;
+}
+
+.footer-bottom {
+    margin-top: 4rem;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.footer-bottom p {
+    color: white;
+    font-family: 'Lora';
+
+}
+
+.icons-footer i {
+    font-size: 30px;
+    color: #bf3434;
+    margin: 0px 12px;
+}
+
+
+.last-section {
+    background: #1e1e1e;
+}
+
+ul button {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid yellow;
+}
+
+
+#courses-they {
+    background-color: #cecccc;
+}
+
+#car-1, #card-1 {
+    scroll-snap-align: start;
+    height: 34rem;
+    list-style: none;
+    cursor: auto;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 8px;
+    color: black;
+}
+
+#car-1 {
+    background-color: #cecccc;
+}
+
+#card-1 {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#card-1 span {
+    padding: 0p;
+    position: relative;
+    right: 8px;
+    width: 83%;
+}
+
+
+.img-test img {
+    width: 30rem;
+    height: 18rem;
+}
+
+#card-1 h2 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+#card-1 span {
+    font-family: 'Lora', serif;
+
+    font-size: 15px;
+}
+
+.buutons button {
+    position: relative;
+    top: 2rem;
+    border: 2px solid black;
+    font-family: 'Lora', serif;
+    cursor: pointer;
 }
