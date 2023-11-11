@@ -1,0 +1,495 @@
+@media only screen and (max-width: 1535px) {
+    .img-test img {
+        width: 21rem;
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .video-container {
+        margin-bottom: 3rem;
+
+    }
+
+    .text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-test img {
+        width: 14rem;
+        height: 11rem;
+    }
+
+    #card-1 h2 {
+        font-size: 16px;
+    }
+
+    #card-1 span {
+        font-size: 13px;
+    }
+
+    .headline-test h1 {
+        font-size: 33px;
+    }
+
+    .slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-part-slide h1 {
+        font-size: 38px;
+    }
+
+
+
+    .right-part-slide p {
+        font-size: 15px;
+    }
+
+    .dummy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dummy p {
+        padding: 20px;
+    }
+
+    .benefits-program {
+        margin-top: 3rem;
+
+    }
+}
+
+
+@media only screen and (max-width: 1142px) {
+    .main-headline-area h1 {
+        font-size: 34px;
+    }
+
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container video {
+        width: 35rem;
+    }
+
+    .courses-they-offer {
+        width: 95%;
+    }
+
+    .left-part-slide {
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 998px) {
+    .nav-bar-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 17px;
+    }
+
+    .links-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .video-container video {
+        width: 25rem;
+    }
+
+    .container-cour h1 {
+        font-size: 22px;
+    }
+
+    .mini-deatil p {
+        font-size: 14px;
+    }
+
+    .foot-disp p {
+        font-size: 16px;
+    }
+
+    .left-footer-side h1, .left-center-footer-side h1, .center-footer-side h1, .right-footer-side h1 {
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (max-width: 716px) {
+    .links-nav a {
+        font-size: 17px;
+    }
+
+    .links-nav ul li {
+        padding: 0px 12px;
+    }
+
+    #remove {
+        display: none;
+    }
+
+    .main-headline-area h1 {
+        font-size: 27px;
+        width: 100%;
+    }
+
+    .socials i {
+        font-size: 23px;
+    }
+
+    .socials {
+        right: 44vw;
+        top: 10vh;
+    }
+
+    .text-container p {
+        font-size: 12px;
+    }
+
+    .text-container h2 {
+        font-size: 45px;
+    }
+
+    .courses-they-offer {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 54vh;
+        justify-content: center;
+    }
+
+    .container-cour {
+        width: 98%;
+    }
+
+    .courses-they-offer p {
+        text-align: center;
+    }
+
+    #cor-1, #cor-2, #cor-3, #cor-4, #cor-5 {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .img-wala img {
+        display: none;
+    }
+
+    .des-co li {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    #cor-2 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-part-slide p {
+        font-size: 12px;
+    }
+
+    .img-foot img {
+        width: 11rem;
+    }
+
+    .foot-disp p {
+        font-size: 11px;
+        padding: 0px;
+    }
+
+    .compact {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .video-container video {
+        width: 19rem;
+    }
+
+    .text-container p {
+        font-size: 10px;
+    }
+
+    .text-container h2 {
+        font-size: 35px;
+    }
+
+    .text-container button {
+        width: 66px;
+        height: 32px;
+    }
+
+    .right-part-slide p {
+        font-size: 8px;
+    }
+
+    .right-part-slide h1 {
+        font-size: 30px;
+    }
+
+    .headline-benifits h1 {
+        font-size: 26px;
+    }
+
+    .dummy p {
+        padding: 23px 0px;
+        font-size: 14px;
+    }
+
+    .wrapper i {
+        display: none;
+    }
+
+    .testimonials i {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 408px) {
+    .about-section {
+        padding: 21px;
+    }
+
+    .links-nav ul li {
+        padding: 0px 5px;
+    }
+
+    .main-headline-area h1 {
+        font-size: 17px;
+    }
+
+    .video-container video {
+        display: none;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .text-container h2 {
+        font-size: 26px;
+    }
+
+    .text-container p {
+        font-size: 9px;
+    }
+
+    .headline h1 {
+        font-size: 28px;
+    }
+
+    .mini-deatil button {
+        width: 88px;
+        height: 30px;
+    }
+
+    .mini-deatil {
+        padding: 3px 3px;
+    }
+
+    .compact {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-foot {
+        margin-bottom: 16px;
+    }
+
+    .foot-disp p {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 346px) {
+    .links-nav a {
+        font-size: 12px;
+    }
+
+    .des-co li {
+        font-size: 13px;
+    }
+
+    .mini-deatil p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 554px) {
+    .timelines {
+        height: 39vh;
+        width: 89%;
+    }
+
+    .footer-donater {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-footer-side h1, .left-center-footer-side h1, .center-footer-side h1, .right-footer-side h1 {
+        font-size: 35px;
+    }
+
+    .left-footer-side a, .left-center-footer-side a, .center-footer-side a, .right-footer-side a {
+        font-size: 15px;
+    }
+
+    .left-center-footer-side {
+        margin: 22px 0px;
+    }
+
+    .right-footer-side {
+        margin-top: 22px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons-footer i {
+        font-size: 25px;
+    }
+
+    .icons-footer {
+        margin: 20px 0px;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    .home-navi {
+        width: 93px;
+        height: 37px;
+    }
+
+    .para-home {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+    .headine {
+        font-size: 31px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .right-nav-bar {
+        margin-top: 31px;
+    }
+
+    .nav-list-freedom li {
+        padding: 0px 7px;
+    }
+
+    .nav-list-freedom li a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .heading-box-achievement h1 {
+        font-size: 30px;
+    }
+
+    .box-avhievements h1 {
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (max-width: 372px) {
+    .time-date {
+        font-size: 20px;
+    }
+
+    .timelines {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 919px) {
+        .left-footer-side a, .left-center-footer-side a, .center-footer-side a, .right-footer-side a {
+            font-size: 11px;
+        }
+
+        .left-footer-side h1, .left-center-footer-side h1, .center-footer-side h1, .right-footer-side h1 {
+            font-size: 18px;
+        }
+
+        .footer-bottom p {
+            font-size: 11px;
+        }
+
+        .icons-footer i {
+            font-size: 17px;
+            margin: 0px 9px;
+        }
+
+        .footer-donater {
+            width: 85%;
+        }
+
+        .footer-bottom {
+            width: 85%;
+        }
+    }
+
+
+    @media only screen and (max-width: 667px) {
+        .heading-timeline {
+            font-size: 32px;
+        }
+
+        .para-timeline {
+            font-size: 11px;
+        }
+    }
+
+    @media only screen and (max-width: 621px) {
+        .content-home-free {
+            height: 49vh;
+        }
+    }
+}

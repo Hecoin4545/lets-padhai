@@ -86,7 +86,7 @@ html {
     align-items: center;
 }
 
-.links-nav li {
+.links-nav ul li {
     padding: 0px 20px;
     list-style: none;
 }
@@ -326,19 +326,17 @@ span {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 64vh;
     padding: 28px 0px;
 }
 
 .benifites-pts p {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-    padding: 0px 20px;
+    padding: 30px 20px;
 
 }
 
 .inner-pts {
-    height: 64vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -550,7 +548,6 @@ span {
     display: flex;
     width: 80%;
     margin: auto;
-    height: 85vh;
     margin-top: 1.5rem;
 }
 
